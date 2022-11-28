@@ -39,15 +39,21 @@ Route::get('/peminjaman', function () {
 
 Route::get('/stok', function () {
     return view('stok',[
+        "id" => "1",
         "name" => "admin",
-        "role" => "admin"
+        "role" => "admin",
+        "barang" => "resistor",
+        "jumlah" => "10"
     ]);
 });
 
 Route::get('/dipinjam', function () {
     return view('dipinjam',[
+        "id" => "1",
         "name" => "admin",
-        "role" => "admin"
+        "role" => "admin",
+        "barang" => "resistor",
+        "jumlah" => "10"
     ]);
 });
 
