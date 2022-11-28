@@ -20,10 +20,20 @@ Route::get('/welcome', function () {
     ]);
 });
 
-Route::get('/peminjaman', function () {
-    return view('peminjaman',[
+Route::get('/', function () {
+    return view('welcome',[
         "name" => "admin",
         "role" => "admin"
+    ]);
+});
+
+Route::get('/peminjaman', function () {
+    return view('peminjaman',[
+        "id" => "1",
+        "name" => "admin",
+        "role" => "admin",
+        "barang" => "resistor",
+        "jumlah" => "10"
     ]);
 });
 

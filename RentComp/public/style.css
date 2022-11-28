@@ -224,11 +224,11 @@
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  background: #fff;
   min-height: 100vh;
   top: 0;
-  left: 78px;
-  width: calc(100% - 78px);
+  left: 0;
+  width: 50%;
   transition: all 0.5s ease;
   z-index: 2;
 }
@@ -242,6 +242,16 @@
   font-size: 25px;
   font-weight: 500;
   margin: 18px
+}
+.wrapper{
+  width: 700px;
+  margin: 0 auto;
+}
+.page-header h2{
+  margin-top: 0;
+}
+table tr td:last-child a{
+  margin-right: 15px;
 }
 @media (max-width: 420px) {
   .sidebar li .tooltip{
