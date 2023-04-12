@@ -1,6 +1,6 @@
 <h1 align="center">Laravel 8 RentComp</h1>
 
-/*
+
 ## User
 
 **Admin**
@@ -17,7 +17,7 @@
 
 - email: peminjam@gmail.com
 - Password: 123123123
-*/
+
 ## Install
 
 **Clone Repository**
