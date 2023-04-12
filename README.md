@@ -1,26 +1,6 @@
-<h1 align="center">Laravel 8 Perpustakaan</h1>
+<h1 align="center">Laravel 8 RentComp</h1>
 
-## Author
-
-Laravel 8 pepustakaan dibuat oleh :
-
-- Github : <a href="https://github.com/musyahya"> Musyahya </a>
-- Youtube : <a href="https://www.youtube.com/channel/UC1iCvpMssrHnUsWKEe2cOag"> Musyahya </a>
-
-## Fitur 
-
-- Autentikasi Admin, Petugas dan Peminjam
-- CRUD Kategori
-- CRUD Buku
-- CRUD Penerbit
-- CRUD Rak
-- Melakukan peminjaman buku
-- Menampilkan chart
-- Mengimplementasikan livewire
-- Menggunakan admin LTE
-- Menggunakan fakerphp
-- Dan lain-lain
-
+/*
 ## User
 
 **Admin**
@@ -37,7 +17,7 @@ Laravel 8 pepustakaan dibuat oleh :
 
 - email: peminjam@gmail.com
 - Password: 123123123
-
+*/
 ## Install
 
 **Clone Repository**
